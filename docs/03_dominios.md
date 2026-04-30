@@ -13,7 +13,7 @@ Responsável pela coleta de dados externos:
 
 Responsável por:
 
-- Serviço de Consolidação (Data Blender): Cruza os dados de BTC (USD) com a taxa de câmbio (BRL) para gerar o preço em moeda nacional.
+- Serviço de Consolidação: Cruza os dados de BTC (USD) com a taxa de câmbio (BRL) para gerar o preço em moeda nacional.
 
 - Serviço de Granularidade: Aplica as regras de agregação (médias de 2h, 4h e diária) conforme o tempo de vida do dado.
 
@@ -39,7 +39,7 @@ graph LR
 
     subgraph DOM_ANALYTICS [Domínio: Analytics e Transformação]
         direction TB
-        T1[Serviço de Consolidação<br/>Data Blender]
+        T1[Serviço de Consolidação]
         T2[Serviço de Granularidade<br/>2h / 4h / Diário]
         T3[Serviço de Backfill]
     end
