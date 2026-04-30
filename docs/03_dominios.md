@@ -55,9 +55,4 @@ graph LR
     T1 --> T2
     T2 <--> T3
     T2 --> C1 & C2
-
-    %% Estilização
-    style DOM_INGESTAO fill:#f0f9ff,stroke:#0369a1,stroke-width:2px
-    style DOM_ANALYTICS fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style DOM_CONSUMO fill:#fefce8,stroke:#a16207,stroke-width:2px
 ```
